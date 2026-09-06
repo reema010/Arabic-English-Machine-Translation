@@ -1,0 +1,37 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated datasets / preprocessing files
+*.model
+*.vocab
+opus100_*.csv
+processed_*.csv
+
+# Hugging Face / model caches
+.cache/
+huggingface/
+hf_cache/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
