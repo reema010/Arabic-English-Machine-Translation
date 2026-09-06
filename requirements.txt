@@ -1,0 +1,21 @@
+# Core data and NLP stack
+pandas
+datasets
+sentencepiece
+transformers
+torch
+
+# Evaluation
+evaluate
+sacrebleu
+bert-score
+unbabel-comet
+
+# Interactive demo
+gradio
+sacremoses
+
+# Packages used during the project's QLoRA exploration / Colab setup
+peft
+accelerate
+bitsandbytes
